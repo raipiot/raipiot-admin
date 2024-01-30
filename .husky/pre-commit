@@ -1,0 +1,2 @@
+pnpm cspell:check
+npx lint-staged
