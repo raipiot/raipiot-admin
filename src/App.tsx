@@ -1,3 +1,4 @@
+import { BrandConfig, TeamConfig } from '@raipiot-infra/config'
 import { useState } from 'react'
 
 import viteLogo from '/vite.svg'
@@ -50,7 +51,7 @@ export default function App() {
         </a>
       </div>
 
-      <div className="mb-4 text-4xl">raipiot React Starter</div>
+      <div className="mb-4 text-4xl">{BrandConfig.name} React Starter</div>
       <div className="mb-4 text-xl">Vite + React + TypeScript</div>
       <button
         type="button"
@@ -59,7 +60,7 @@ export default function App() {
       >
         count is {count}
       </button>
-      <div>Powered by raipiot Front-end Core Team</div>
+      <div>Powered by {TeamConfig.name}</div>
     </div>
   )
 }

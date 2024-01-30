@@ -14,6 +14,9 @@ dependencies:
   '@raipiot-infra/antd':
     specifier: ^0.0.0
     version: 0.0.0(antd@5.13.3)(dayjs@1.11.10)(react@18.2.0)
+  '@raipiot-infra/config':
+    specifier: ^0.0.0
+    version: 0.0.0
   '@raipiot-infra/utils':
     specifier: ^0.0.0
     version: 0.0.0(dayjs@1.11.10)
@@ -1581,7 +1584,6 @@ packages:
 
   /@raipiot-infra/config@0.0.0:
     resolution: {integrity: sha512-d0j4w1Lk5lBKLOwlJr/J3Y7G8WGyqV5LbkMm+pbShDdmL08d/CLNlfq5tzUFheSY6rnnLGxC7cOm3NQq/T3NQw==}
-    dev: true
 
   /@raipiot-infra/cspell@0.0.0(cspell@8.3.2):
     resolution: {integrity: sha512-GuCXbit4+EHJq/jtfihtejkSVHnns+SLfFTQTI2XuWHgHtaPxnHoz/qErrK1Yi4UfzVOy75IAFkf3r7TEnqFYg==}
