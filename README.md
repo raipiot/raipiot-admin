@@ -54,3 +54,45 @@ raipiot Admin 基于 React + TypeScript + Vite + antd + TailwindCSS。
 - husky
 - lint-staged
 - cz-git
+
+## Web
+
+### 安装依赖
+
+```bash
+pnpm i
+```
+
+### 启动开发环境
+
+```bash
+pnpm dev
+```
+
+### 构建生产环境
+
+```bash
+pnpm build:prod
+```
+
+## Desktop
+
+使用 [Tauri](https://tauri.app/) 打包桌面端应用。
+
+### 安装依赖
+
+```bash
+pnpm i
+```
+
+### 启动开发环境
+
+```bash
+pnpm desktop:dev
+```
+
+### 构建生产环境
+
+```bash
+pnpm desktop:build:prod
+```

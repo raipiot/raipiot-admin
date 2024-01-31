@@ -12,20 +12,20 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0(antd@5.13.3)(react-dom@18.2.0)(react@18.2.0)
   '@raipiot-infra/antd':
-    specifier: ^0.0.0
-    version: 0.0.0(antd@5.13.3)(dayjs@1.11.10)(react@18.2.0)
+    specifier: 0.0.2
+    version: 0.0.2(antd@5.13.3)(dayjs@1.11.10)(react@18.2.0)
   '@raipiot-infra/config':
-    specifier: ^0.0.0
-    version: 0.0.0
+    specifier: 0.0.2
+    version: 0.0.2
   '@raipiot-infra/utils':
-    specifier: ^0.0.0
-    version: 0.0.0(dayjs@1.11.10)
+    specifier: 0.0.2
+    version: 0.0.2(dayjs@1.11.10)
   '@tanstack/react-query':
-    specifier: ^5.17.19
-    version: 5.17.19(react@18.2.0)
+    specifier: ^5.18.0
+    version: 5.18.0(react@18.2.0)
   '@tanstack/react-query-devtools':
-    specifier: ^5.17.21
-    version: 5.17.21(@tanstack/react-query@5.17.19)(react@18.2.0)
+    specifier: ^5.18.0
+    version: 5.18.0(@tanstack/react-query@5.18.0)(react@18.2.0)
   '@tauri-apps/api':
     specifier: ^1.5.3
     version: 1.5.3
@@ -83,29 +83,29 @@ devDependencies:
     specifier: ^4.1.1
     version: 4.1.1(react@18.2.0)
   '@raipiot-infra/auto-import':
-    specifier: ^0.0.0
-    version: 0.0.0(unplugin-auto-import@0.17.5)
+    specifier: 0.0.2
+    version: 0.0.2(unplugin-auto-import@0.17.5)
   '@raipiot-infra/bootstrap-animation':
-    specifier: ^0.0.0
-    version: 0.0.0(vite@5.0.12)
+    specifier: 0.0.2
+    version: 0.0.2(@raipiot-infra/config@0.0.2)(vite@5.0.12)
   '@raipiot-infra/commitlint-config':
-    specifier: ^0.0.0
-    version: 0.0.0(@commitlint/cli@18.6.0)(@commitlint/config-conventional@18.6.0)(commitizen@4.3.0)(cz-git@1.8.0)
+    specifier: 0.0.2
+    version: 0.0.2(@commitlint/cli@18.6.0)(@commitlint/config-conventional@18.6.0)(commitizen@4.3.0)(cz-git@1.8.0)
   '@raipiot-infra/cspell':
-    specifier: ^0.0.0
-    version: 0.0.0(cspell@8.3.2)
+    specifier: 0.0.4
+    version: 0.0.4(cspell@8.3.2)
   '@raipiot-infra/eslint-config':
-    specifier: ^0.0.0
-    version: 0.0.0(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3)
+    specifier: 0.0.2
+    version: 0.0.2(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3)
   '@raipiot-infra/prettier':
-    specifier: ^0.0.0
-    version: 0.0.0(prettier@3.2.4)
+    specifier: 0.0.2
+    version: 0.0.2(prettier@3.2.4)
   '@raipiot-infra/tailwind':
-    specifier: ^0.0.0
-    version: 0.0.0(tailwindcss@3.4.1)
+    specifier: 0.0.2
+    version: 0.0.2(tailwindcss@3.4.1)
   '@raipiot-infra/tsconfig':
-    specifier: ^0.0.0
-    version: 0.0.0(typescript@5.3.3)
+    specifier: 0.0.2
+    version: 0.0.2(typescript@5.3.3)
   '@svgr/core':
     specifier: ^8.1.0
     version: 8.1.0(typescript@5.3.3)
@@ -1534,13 +1534,13 @@ packages:
     dev: true
     optional: true
 
-  /@raipiot-infra/antd@0.0.0(antd@5.13.3)(dayjs@1.11.10)(react@18.2.0):
-    resolution: {integrity: sha512-jd3cETQS9CTNlG3BQkDQN2XFk3fwhxsIFOqbY9wJbGz/VcVGBpIPxVL7Y15uXeI+BLvzuli08qZjmWENG+J1LQ==}
+  /@raipiot-infra/antd@0.0.2(antd@5.13.3)(dayjs@1.11.10)(react@18.2.0):
+    resolution: {integrity: sha512-fucBkHZF8m+nlycUFUvcNmEaSdKCfuPI7Hk9JJzXjekeJ66kKqIl9iZdlxB43YzfJvtCLLlBGPLLqh/i9LJWVA==}
     peerDependencies:
       antd: '>=5.13.2'
       react: '>=18.2.0'
     dependencies:
-      '@raipiot-infra/utils': 0.0.0(dayjs@1.11.10)
+      '@raipiot-infra/utils': 0.0.2(dayjs@1.11.10)
       antd: 5.13.3(react-dom@18.2.0)(react@18.2.0)
       clsx: 2.1.0
       lodash-es: 4.17.21
@@ -1549,27 +1549,31 @@ packages:
       - dayjs
     dev: false
 
-  /@raipiot-infra/auto-import@0.0.0(unplugin-auto-import@0.17.5):
-    resolution: {integrity: sha512-qG+2PfSMTW2bBrdo3drwWm+v7mgTAmBiGvB66HPN7KMZFIfI/hGOtvI2A2fTttF1prljRjjVDTMB4ftZ6eaxFw==}
+  /@raipiot-infra/auto-import@0.0.2(unplugin-auto-import@0.17.5):
+    resolution: {integrity: sha512-iT64g4nRAacYTMoIt6GdgPc87iE4imLjQ/x+e1jZrDO5fHFJhDTdPAL77P5e3Wq73lu8eTVrGaxepgsavhjbsg==}
     peerDependencies:
       unplugin-auto-import: ^0.17.5
     dependencies:
       unplugin-auto-import: 0.17.5
     dev: true
 
-  /@raipiot-infra/bootstrap-animation@0.0.0(vite@5.0.12):
-    resolution: {integrity: sha512-Fqr7cr5+q9K/gZw4DTlE4p2+v9kkZosgCazhcge5l4gRZy7FnqS5C9kW1q9WyzPsXb7ZidNMMfdHdvMuk7ANhQ==}
+  /@raipiot-infra/bootstrap-animation@0.0.2(@raipiot-infra/config@0.0.2)(vite@5.0.12):
+    resolution: {integrity: sha512-avinu8MfpEh2/JYFGJtne7EbhOjHiwTGi+3sIxuN21MUAkuUGNGM4jnbJODc2wxpKTCYLK11HGOj9b8nYC0L/w==}
     peerDependencies:
+      '@raipiot-infra/config': 0.0.2
       vite: ^5.0.12
+    peerDependenciesMeta:
+      '@raipiot-infra/config':
+        optional: true
     dependencies:
-      '@raipiot-infra/config': 0.0.0
+      '@raipiot-infra/config': 0.0.2
       figlet: 1.7.0
       gradient-string: 2.0.2
       vite: 5.0.12(@types/node@20.11.10)(sass@1.70.0)
     dev: true
 
-  /@raipiot-infra/commitlint-config@0.0.0(@commitlint/cli@18.6.0)(@commitlint/config-conventional@18.6.0)(commitizen@4.3.0)(cz-git@1.8.0):
-    resolution: {integrity: sha512-tstUnbSXGe1d0fYJ94OShsLcNl2qJQ+8ef8uyHjXD51hYwSABaOXLpo12+BVvrVh/MxRytxUQ+yfHcDqmCabaQ==}
+  /@raipiot-infra/commitlint-config@0.0.2(@commitlint/cli@18.6.0)(@commitlint/config-conventional@18.6.0)(commitizen@4.3.0)(cz-git@1.8.0):
+    resolution: {integrity: sha512-YICNOx9uAY5205pOOTlMlg9nz//roGhVjJPdf6HEaLTTCxYyeoSpbvDZsIiahI4FybQBXjPy44n1cID1APIaMQ==}
     peerDependencies:
       '@commitlint/cli': ^18.6.0
       '@commitlint/config-conventional': ^18.6.0
@@ -1582,40 +1586,40 @@ packages:
       cz-git: 1.8.0
     dev: true
 
-  /@raipiot-infra/config@0.0.0:
-    resolution: {integrity: sha512-d0j4w1Lk5lBKLOwlJr/J3Y7G8WGyqV5LbkMm+pbShDdmL08d/CLNlfq5tzUFheSY6rnnLGxC7cOm3NQq/T3NQw==}
+  /@raipiot-infra/config@0.0.2:
+    resolution: {integrity: sha512-KRtKI5ZjnfdWjqIbDyguDeNy+mmEXCxOAeZp49lCGhR1/Y5qTtEZTBYGOIr96AEDS2bjNpi0SPDKtadMGrQlRg==}
 
-  /@raipiot-infra/cspell@0.0.0(cspell@8.3.2):
-    resolution: {integrity: sha512-GuCXbit4+EHJq/jtfihtejkSVHnns+SLfFTQTI2XuWHgHtaPxnHoz/qErrK1Yi4UfzVOy75IAFkf3r7TEnqFYg==}
+  /@raipiot-infra/cspell@0.0.4(cspell@8.3.2):
+    resolution: {integrity: sha512-LYkgX3X62qvR2BRR3rhTpt8qB63y9yXEk1T+r2YhAlY2vpvfwEHmniq+LzoMDk415BsZRQ+xwL2+5KXzkpkGcw==}
     peerDependencies:
       cspell: ^8.3.2
     dependencies:
       cspell: 8.3.2
     dev: true
 
-  /@raipiot-infra/enums@0.0.0(dayjs@1.11.10):
-    resolution: {integrity: sha512-b2uQf6iLMqzAxtdbFidT2M8K9DLmtsNvB79+daHNgx1bOGCB74VeKDeqRplnQdcarHBSol75o4bBRyTsZhRWsA==}
+  /@raipiot-infra/enums@0.0.2(dayjs@1.11.10):
+    resolution: {integrity: sha512-5xAcTd8T6j+CmZgcTaUTF1uPBI4D/YbJug+o06W088PChoBxAdLC22jpHUmnOOYFLsTlw15BhpJLbL3rFT9AMA==}
     peerDependencies:
       dayjs: ^1.11.10
     dependencies:
       dayjs: 1.11.10
     dev: false
 
-  /@raipiot-infra/eslint-config-base@0.0.0(eslint@8.56.0):
-    resolution: {integrity: sha512-C3rMLf0UejfY+fcNA3MCNPtXDyW9MpbJjsV686NQbAKukzsVZVPP3fxFkkcH4GDwtYEkwX4NvSaAFGT2aSCTtg==}
+  /@raipiot-infra/eslint-config-base@0.0.2(eslint@8.56.0):
+    resolution: {integrity: sha512-JcYq0/qMrcIaNar/rI1ntp3To6Qy9Uv6oj25FqPJ4kadn44QSf+5BNKra3f1d5YkGqH9Chhl4V2jWRtTHK7XbQ==}
     dependencies:
       eslint-plugin-jsx-a11y: 6.8.0(eslint@8.56.0)
     transitivePeerDependencies:
       - eslint
     dev: true
 
-  /@raipiot-infra/eslint-config-react@0.0.0(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-+2yY2+N0H7o31dWf2oFSfH2NbH6SPgs8EqI1PL69RB0WxNz+EGN7hkXqFRe0wGpxuKVgF5ib1vbegZmhdcnyew==}
+  /@raipiot-infra/eslint-config-react@0.0.2(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-A+3ZpWcNre626Uh8GgB3Eru4cp/gp8YnLQC8hOE99EuyE8MljJzlkm2mS4XQkrvEDXTQ8pn5RV3hS/sHq6fMBg==}
     peerDependencies:
       eslint: ^8.56.0
       typescript: '>=5.0.0'
     dependencies:
-      '@raipiot-infra/eslint-config-base': 0.0.0(eslint@8.56.0)
+      '@raipiot-infra/eslint-config-base': 0.0.2(eslint@8.56.0)
       '@tanstack/eslint-plugin-query': 5.17.22(eslint@8.56.0)(typescript@5.3.3)
       '@typescript-eslint/eslint-plugin': 6.19.1(@typescript-eslint/parser@6.19.1)(eslint@8.56.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 6.19.1(eslint@8.56.0)(typescript@5.3.3)
@@ -1642,13 +1646,13 @@ packages:
       - tailwindcss
     dev: true
 
-  /@raipiot-infra/eslint-config@0.0.0(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3):
-    resolution: {integrity: sha512-ag4MokiZ7xzS5wfaKn2eG1pXmIdoh7QkvXTT46uQnXQ6HxRfSg2SAGXT/qPbcmQe3q459tEPVAGxe5NC131aLg==}
+  /@raipiot-infra/eslint-config@0.0.2(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3):
+    resolution: {integrity: sha512-azNvkzGob5sDhVHlYzsynDC08WJvwBxMHva63x3TmnU6JfqKCgS+2y/DKHiPsqlNC2ryr6b81Wn0+U66lkd0NA==}
     peerDependencies:
       eslint: ^8.56.0
       typescript: '>=5.0.0'
     dependencies:
-      '@raipiot-infra/eslint-config-react': 0.0.0(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3)
+      '@raipiot-infra/eslint-config-react': 0.0.2(eslint@8.56.0)(tailwindcss@3.4.1)(typescript@5.3.3)
       eslint: 8.56.0
       typescript: 5.3.3
     transitivePeerDependencies:
@@ -1658,36 +1662,36 @@ packages:
       - tailwindcss
     dev: true
 
-  /@raipiot-infra/prettier@0.0.0(prettier@3.2.4):
-    resolution: {integrity: sha512-5NqSyJv7/YHJTDe6+TzYztcGSH3CHrMAy4ezslpZSdMFBujpjKurEkYnYlcfky4a4U/SMR1H7d8WYkTLJc1v7A==}
+  /@raipiot-infra/prettier@0.0.2(prettier@3.2.4):
+    resolution: {integrity: sha512-AU14uaMY7+pzSa4KydBa2VHmzs5PrdabaOW22/IC7Amfp5h4yvH5IIXwVj/Tez9HGvYAJqiGbXd8Vyz5kcop2Q==}
     peerDependencies:
       prettier: ^3.2.4
     dependencies:
       prettier: 3.2.4
     dev: true
 
-  /@raipiot-infra/tailwind@0.0.0(tailwindcss@3.4.1):
-    resolution: {integrity: sha512-Zk91Ord3/Z2ZXzs7XvLRWQpi85+RDpVFRMla2lX9Zui9RNSwnChzakNGNUR+a+ksulyHiZG9oLbwz91zpBP7gQ==}
+  /@raipiot-infra/tailwind@0.0.2(tailwindcss@3.4.1):
+    resolution: {integrity: sha512-UGBLytO71WFu/lvYx21KreACw6PZscfdqgFIW9Qe+pHxEhe0+mbc9Jh4wQZffYPzztdHk6dW0ZaIceUJE63nUA==}
     peerDependencies:
       tailwindcss: ^3.4.1
     dependencies:
       tailwindcss: 3.4.1
     dev: true
 
-  /@raipiot-infra/tsconfig@0.0.0(typescript@5.3.3):
-    resolution: {integrity: sha512-SY83eyr5Rv5/GP7hqsbt+enQxwR5625+hLxIpVR3AAnLiFFMNVeaGm7h2CncDx2ilrCaTGr37j5WxWPXhZkZPA==}
+  /@raipiot-infra/tsconfig@0.0.2(typescript@5.3.3):
+    resolution: {integrity: sha512-DOwYPqwHU3XU7GvBsAia3kosdTFVe6j/iSx0S+7od80pDC5UU4ikMp8nEGT0ahx3i3JKvpq1fXKvlrCJzDcn9A==}
     peerDependencies:
       typescript: '>=5.0.0'
     dependencies:
       typescript: 5.3.3
     dev: true
 
-  /@raipiot-infra/utils@0.0.0(dayjs@1.11.10):
-    resolution: {integrity: sha512-Rpq8j3wFaYc/Sd393kXGPZ2RGIg1AwkXAp2LRAMVsls+7QTGfRAOtgxzZbUqECjwHFTm2TpxVyqfuqEERNj+dw==}
+  /@raipiot-infra/utils@0.0.2(dayjs@1.11.10):
+    resolution: {integrity: sha512-8uX6mY9piwaY178i1rNYqvYB3Mton/xTbH8pcWsPAXjAwJIXIKJW0FyaYLiD/vHB+MHmfX3aEMjLhjxlj31uhg==}
     peerDependencies:
       dayjs: ^1.11.10
     dependencies:
-      '@raipiot-infra/enums': 0.0.0(dayjs@1.11.10)
+      '@raipiot-infra/enums': 0.0.2(dayjs@1.11.10)
       dayjs: 1.11.10
     dev: false
 
@@ -2170,31 +2174,31 @@ packages:
       - typescript
     dev: true
 
-  /@tanstack/query-core@5.17.19:
-    resolution: {integrity: sha512-Lzw8FUtnLCc9Jwz0sw9xOjZB+/mCCmJev38v2wHMUl/ioXNIhnNWeMxu0NKUjIhAd62IRB3eAtvxAGDJ55UkyA==}
+  /@tanstack/query-core@5.18.0:
+    resolution: {integrity: sha512-8c6nxeAnGHxIDZIyDmHdmgFt4D+LprAQaJmjsnM4szcIjsWOyFlzxdqQUuQ/XuQRvUgqYaqlJTtDADlSS7pTPQ==}
     dev: false
 
-  /@tanstack/query-devtools@5.17.21:
-    resolution: {integrity: sha512-WWfcnNjTEqcuAS5GyKkVGkseuES6yd197MJWGImBu+MoCjWPqxSXKCCfm+utSXJauJUGm7xoMmhqCphiQdjf8w==}
+  /@tanstack/query-devtools@5.18.0:
+    resolution: {integrity: sha512-h0KuF8CboNB7z6+Y6psTwK56JwHD1pNB28gDbc1PaaQ9Q5uD837egYH3qOEEireO/1P3j2s3jVPsbB0+bqdthw==}
     dev: false
 
-  /@tanstack/react-query-devtools@5.17.21(@tanstack/react-query@5.17.19)(react@18.2.0):
-    resolution: {integrity: sha512-Ri1AuWpN67eyPdMTlPxx1TMGNUaxTHrGv0ll0S20ZObz/Xms5wfANV3c6OX0HZTY0igudP1k5jpRLXNkd249mg==}
+  /@tanstack/react-query-devtools@5.18.0(@tanstack/react-query@5.18.0)(react@18.2.0):
+    resolution: {integrity: sha512-zjDOYexc8dvDyaRvrbsjdUD8tjaUTIwOyQxM2Go+rOF+HgAIyn4dLFh/6s+sszRjqDn74oBkUNUeYNnh6zmIOw==}
     peerDependencies:
-      '@tanstack/react-query': ^5.17.19
+      '@tanstack/react-query': ^5.18.0
       react: ^18.0.0
     dependencies:
-      '@tanstack/query-devtools': 5.17.21
-      '@tanstack/react-query': 5.17.19(react@18.2.0)
+      '@tanstack/query-devtools': 5.18.0
+      '@tanstack/react-query': 5.18.0(react@18.2.0)
       react: 18.2.0
     dev: false
 
-  /@tanstack/react-query@5.17.19(react@18.2.0):
-    resolution: {integrity: sha512-qaQENB6/03Gj3dFZGvdmUoqeUGlGm7P1p0RmaR04Bf1Ib1T9lLGimcC9T3oCFbrx0b2ZF21ngjFZNjj9uPJMcg==}
+  /@tanstack/react-query@5.18.0(react@18.2.0):
+    resolution: {integrity: sha512-7FKxNfxxKEL7n3ADpwp81Fy4FX85hNkYVzQQVQsF0JAPl93c3d1gmNZMIbEtOqgYfom1/ontGh3FiZGYj3xyWA==}
     peerDependencies:
       react: ^18.0.0
     dependencies:
-      '@tanstack/query-core': 5.17.19
+      '@tanstack/query-core': 5.18.0
       react: 18.2.0
     dev: false
 

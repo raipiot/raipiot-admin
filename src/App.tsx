@@ -1,8 +1,10 @@
 import { BrandConfig, TeamConfig } from '@raipiot-infra/config'
+import clsx from 'clsx'
 import { useState } from 'react'
 
 import viteLogo from '/vite.svg'
 
+import styles from './app.module.scss'
 import raipiotLogo from './assets/img/raipiot.png'
 import reactLogo from './assets/react.svg'
 
@@ -15,11 +17,11 @@ export default function App() {
         href="https://www.raipiot.com"
         target="_blank"
         rel="noreferrer"
-        className="mb-8"
+        className="mb-2"
       >
         <img
           src={raipiotLogo}
-          className="w-32 hover:animate-pulse"
+          className={styles.logo}
           alt="raipiot logo"
           loading="eager"
         />
@@ -32,7 +34,7 @@ export default function App() {
         >
           <img
             src={viteLogo}
-            className="w-20 hover:animate-bounce"
+            className={clsx(styles.logo, styles.vite)}
             alt="Vite logo"
             loading="eager"
           />
@@ -44,23 +46,22 @@ export default function App() {
         >
           <img
             src={reactLogo}
-            className="w-20 hover:animate-spin"
+            className={clsx(styles.logo, styles.react)}
             alt="React logo"
             loading="eager"
           />
         </a>
       </div>
-
-      <div className="mb-4 text-4xl">{BrandConfig.name} React Starter</div>
-      <div className="mb-4 text-xl">Vite + React + TypeScript</div>
+      <div className="mb-8 text-4xl">{BrandConfig.name} React Starter</div>
       <button
         type="button"
         onClick={() => setCount((v) => v + 1)}
-        className="mb-4 rounded-md bg-gray-200 p-2"
+        className="mb-8 rounded-md bg-gray-200 p-2"
       >
         count is {count}
       </button>
-      <div>Powered by {TeamConfig.name}</div>
+      <div className="mb-8 text-sm text-gray-500">Edit src/App.tsx and save to test HMR</div>
+      <div className="text-sm tracking-wide">Powered by {TeamConfig.name}</div>
     </div>
   )
 }
