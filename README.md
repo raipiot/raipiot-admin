@@ -12,7 +12,7 @@ raipiot Admin 基于 React + TypeScript + Vite + antd + TailwindCSS。
 
 ### 路由层
 
-- react-router v6
+- tanstack-router v1
 
 ### 状态管理层
 

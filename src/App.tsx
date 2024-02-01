@@ -1,7 +1,3 @@
-import { BrandConfig, TeamConfig } from '@raipiot-infra/config'
-import clsx from 'clsx'
-import { useState } from 'react'
-
 import viteLogo from '/vite.svg'
 
 import styles from './app.module.scss'
